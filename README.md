@@ -10,3 +10,8 @@ Comparing strings and objects using equals() and == operator.
 
 ### PassByValue
 Showcasing the meaning of the term.
+
+### StackOverflowVsOutOfMemory
+A simple example showcasing the cases that may result in a StackOverflow Error or an OutOfMemoryError.
+Explaining the differences between these two errors.
+Lastly, reference is made to the configuration flags -Xss, -Xmx and -Xms and their usage.
