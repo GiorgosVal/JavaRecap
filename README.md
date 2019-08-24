@@ -7,3 +7,6 @@ This repo contains mini-projects that are usefull for a Java recap. It will be u
 Creating Strings using the assignment way and constructor way, and also StringBuilder, StringBuffer.
 Creating Objects by/without overriding equals() or hashCode.
 Comparing strings and objects using equals() and == operator.
+
+### PassByValue
+Showcasing the meaning of the term.
