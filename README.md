@@ -15,3 +15,6 @@ Showcasing the meaning of the term.
 A simple example showcasing the cases that may result in a ```java.lang.StackOverflowError``` or an ```java.lang.OutOfMemoryError: Java heap space```.
 Explaining the differences between these two errors.
 Lastly, reference is made to the configuration flags ```-Xss```, ```-Xmx``` and ```-Xms``` and their usage.
+
+### ThreadAndRunnable
+A simple example about creating multiple threads using the Thread class and Runnable functional interface.
