@@ -15,7 +15,7 @@ Calculating the factorial of a number using simple loop, Stream and recursive me
 Showcasing the meaning of the term.
 
 ### PrimeNumbers
-Comparing three different algorithms for finding if a number is prime. Comparing them by using the MethodTimer functional interface. Also implementation of two extra methods, one for finding the closest prime numbers of a given number, and one for finding the prime numbers within a given range.
+Comparing three different algorithms for finding if a number is prime. Comparing them by using the [MethodTimer](https://github.com/GiorgosVal/MethodTimer) functional interface. Also implementation of two extra methods, one for finding the closest prime numbers of a given number, and one for finding the prime numbers within a given range.
 
 ### StackOverflowVsOutOfMemory
 A simple example showcasing the cases that may result in a ```java.lang.StackOverflowError``` or an ```java.lang.OutOfMemoryError: Java heap space```.
