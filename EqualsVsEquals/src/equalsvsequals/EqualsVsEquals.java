@@ -79,6 +79,18 @@ public class EqualsVsEquals {
                 + "the same value as the value of the memory address that is referenced by s2?\"\n");
 
         printSubtitle("3. About hashCode:");
+        System.out.println("    A hash code is an integer value gererated by a hashinh algorithm. The gereral contract\n"
+                + "of hashCode() states:\n"
+                + "- Whenever it is invoked on the same object more than once during an execution of a Java \n"
+                + "application, hashCode() must consistently return the same value, provided no information used \n"
+                + "in equals comparisons on the object is modified. This value needs not remain consistent from\n"
+                + "one execution of an application to another execution of the same application.\n"
+                + "- If two objects are equal according to the equals(Object) method, then calling the hashCode() \n"
+                + "method on each of the two objects must produce the same value.\n"
+                + "- It is not required that if two objects are unequal according to the equals(java.lang.Object) \n"
+                + "method, then calling the hashCode method on each of the two objects must produce distinct \n"
+                + "integer results. However, developers should be aware that producing distinct integer results \n"
+                + "for unequal objects improves the performance of hash tables.");
         System.out.println("Objects that are equal according to their equals() method must return the same hashCode.");
         System.out.println("The opposite is not required but preferred.");
         System.out.println("more info: https://www.baeldung.com/java-hashcode");
